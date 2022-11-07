@@ -16,8 +16,27 @@ git checkout -b "branca2"
 
 //modifiquem README.md
 git add .
-git commit -m "Alex Sanchez B"
+git commit -m "Alex Sanchez Branca2 C1"
 git push origin branca2
 
 git checkout -b "branca1"
+git push origin branca1
+
+git checkout master
+//modifiquem README.md
+git add .
+git commit -m "Alex Sanchez Master C3"
+git push origin master
+
+git checkout branca1
+//modifiquem README.md
+git add .
+git commit -m "Alex Sanchez Branca1 C1"
+git push origin branca1
+
+//modifiquem README.md
+git add .
+git commit -m "Alex Sanchez Branca1 C2"
+git push origin branca1
+
 

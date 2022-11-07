@@ -1,0 +1,4 @@
+mkdir lliurament3-451
+cd lliurament3-451
+git init
+

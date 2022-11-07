@@ -1,10 +1,23 @@
 mkdir lliurament3-451
 cd lliurament3-451
 git init
-echo README.md >> "Readme lliurament git"
+echo "Readme lliurament git" >> README.md 
 git add README.md
-git commit -m "Alex Sanchez commit inicial"
+git commit -m "Alex Sanchez Master C1"
 git branch -M master 
 git remote add origin git@github.com:NIU1670860/lliurament3-451.git
 git push -u origin master
+
+//modifiquem README.md
+git commit -m "Alex Sanchez Master C2"
+
+//nova branca
+git checkout -b "branca2"
+
+//modifiquem README.md
+git add .
+git commit -m "Alex Sanchez B"
+git push origin branca2
+
+git checkout -b "branca1"
 
